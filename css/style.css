@@ -1,0 +1,42 @@
+.wrapper {
+            width: 80%;
+            margin: 30px auto;
+            background: teal;
+        }
+
+        .color-box {
+            position: fixed;
+            right: 0;
+            top: 12%;
+            transition: all 1s ease-in-out;
+            background: #eee;
+            padding: 11px 10px;
+            margin-right: -152px;
+        }
+
+        #color-list a {
+            width: 36px;
+            height: 36px;
+            cursor: pointer;
+        }
+
+        div#color-list {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 12px;
+        }
+
+        .trigger-btn {
+            position: absolute;
+            right: 100%;
+            top: 0%;
+            background: cyan;
+            padding: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 6px 0 0 6px;
+        }
+
+        .color-box.showBox {
+            margin-right: 0;
+        }

@@ -1,0 +1,51 @@
+/* color dynamic*/
+div#wrapper.orange-bar {
+  background: #fcba03;
+}
+
+div#wrapper.orange-bar h3,
+h1 {
+  color: navy;
+}
+
+div#wrapper.lightgreen-bar {
+  background: #c6fc03;
+}
+
+div#wrapper.lightgreen-bar h3,
+h1 {
+  color: navy;
+}
+div#wrapper.paste-bar {
+  background: #03fcd7;
+}
+
+div#wrapper.paste-bar h3,
+h1 {
+  color: navy;
+}
+div#wrapper.lightblue-bar {
+  background: #039dfc;
+}
+
+div#wrapper.lightblue-bar h3,
+h1 {
+  color: navy;
+}
+
+div#wrapper.purple-bar {
+  background: #9803fc;
+}
+
+div#wrapper.purple-bar h3,
+h1 {
+  color: navy;
+}
+div#wrapper.maroon-bar {
+  background: #fc3903;
+}
+
+div#wrapper.maroon-bar h3,
+h1 {
+  color: navy;
+}
